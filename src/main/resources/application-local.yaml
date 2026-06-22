@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    azure:
+      credential:
+        managed-identity-enabled: false
+
+logging:
+  level:
+    com.azure.spring.cloud: TRACE
